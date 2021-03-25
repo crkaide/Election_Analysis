@@ -28,7 +28,7 @@ import csv
 import os
 
 # 2. Add the filename variable that references the path to election_results.csv.
-file_to_load = '/Users/crkaide/OneDrive - IL State University/Vanderbilt/Vanderbilt/Assignments/Three_3_Python/Election_Analysis/Resources/election_results.csv'
+file_to_load = '/Users/crkaide/OneDrive - IL State University/Vanderbilt/Vanderbilt/Assignments/3_Python/Election_Analysis/Resources/election_results.csv'
 
 # 3. Open the election_results.csv using the with statement as the filename object, election_data.
 with open(file_to_load) as election_data:
