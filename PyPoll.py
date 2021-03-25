@@ -23,17 +23,29 @@
 
 
 
-# 1. Import the csv and os modules.
+# Import the csv and os modules.
 import csv
 import os
 
-# 2. Add the filename variable that references the path to election_results.csv.
+# Add the filename variable that references the path to election_results.csv.
 file_to_load = '/Users/crkaide/OneDrive - IL State University/Vanderbilt/Vanderbilt/Assignments/3_Python/Election_Analysis/Resources/election_results.csv'
 
-# 3. Open the election_results.csv using the with statement as the filename object, election_data.
+# Create a filename variable to the path for writing results.
+file_to_save = '/Users/crkaide/OneDrive - IL State University/Vanderbilt/Vanderbilt/Assignments/3_Python/Election_Analysis/Analysis/election_analysis.txt'
+
+
+
+# Open the election_results.csv using the with statement as the filename object, election_data.
 with open(file_to_load) as election_data:
 
-    # 4. Print the filename object.
-    print(election_data)
+    #To do:  read and analyze the data here.
+    file_reader = csv.reader(election_data)
+
+    # # Print each row in the CSV file.
+    # for row in file_reader:
+    #     print(row)
 
 
+    #Read and print the header row.
+    headers = next(file_reader)
+    print(headers)
