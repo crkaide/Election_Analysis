@@ -47,7 +47,7 @@ Using a variety of Python's basic features, and relying most heavily on its list
 
 The user-friendly syntax and human-focused logic of Python made it incredibly easy to set up the same analysis for the precinct's geography, replacing the highest scoring candidate with the county that had the highest voter turnout and determining each county's share of the total vote using the same method as that used to figure candidate totals.
 
-The code in the challenge practically wrote itself, and can be very easily adapted to further purposes, including: 1) much larger data sets, e.g. statewide and state-level elections, and 2) 21st century and post-COVID voting trends and the migration of voters between counties (rural vs. metropolitan, border counties vs. central counties, eastern vs. western and northern vs. southern).  I recommend adding an additional element--method of voting (in person, by mail)--for longitudinal exploration in additional administrations of this audit.
+The code in the challenge practically wrote itself, and can be very easily adapted to further purposes, including: 1) much larger data sets, e.g. statewide and state-level elections, and 2) 21st century and post-COVID voting trends and the migration of voters between counties (rural vs. metropolitan, border counties vs. central counties, eastern vs. western and northern vs. southern).  I recommend adding an additional element to this dataset--method of voting (in person, by mail)--and amending the code to report it for longitudinal exploration in additional administrations of this audit.
 
 ### Copy of .txt file
 ![election_results.png](https://github.com/crkaide/Election_Analysis/blob/main/election_results.png?raw=true)
