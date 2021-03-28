@@ -50,6 +50,7 @@ The user-friendly syntax and human-focused logic of Python made it incredibly ea
 The code in the challenge practically wrote itself, and can be very easily adapted to further purposes, including: 1) much larger data sets, e.g. statewide and state-level elections, and 2) 21st century and post-COVID voting trends and the migration of voters between counties (rural vs. metropolitan, border counties vs. central counties, eastern vs. western and northern vs. southern).  I recommend adding an additional element--method of voting (in person, by mail)--for longitudinal exploration in additional administrations of this audit.
 
 ### Copy of .txt file
-
+![election_results.png](https://github.com/crkaide/Election_Analysis/blob/main/election_results.png?raw=true)
 
 ### Copy of .py code file
+![full_code.png](https://github.com/crkaide/Election_Analysis/blob/main/full_code.png?raw=true)
